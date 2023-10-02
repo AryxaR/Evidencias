@@ -1,0 +1,25 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/651abb3033692894337de3dd
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "title": "idk",
+    "description": "juasjuas"
+}
+
+###
+PATCH  http://localhost:3000/users/651abb3033692894337de3dd
+Content-Type: application/json
+
+{
+    "title": "ssiiiuuuu"
+}
+
+###
+DELETE http://localhost:3000/users/651ae43a2c4dfa9c2eb239aa
+
+
